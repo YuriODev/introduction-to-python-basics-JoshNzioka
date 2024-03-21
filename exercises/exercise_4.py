@@ -1,6 +1,6 @@
 # Exercise 4
 # Your solution comes here
-num = (input()
+num = (input())
 if len(str(num)) <4:
   num = str(num).zfill(4)
 print(num)

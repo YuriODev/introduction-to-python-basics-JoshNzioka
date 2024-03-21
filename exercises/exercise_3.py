@@ -15,6 +15,6 @@ if min >= 60:
 
 
 
-newtime = hours,min,sec
+newtime = (f"{hours}:{min:02d}:{sec:02d}")
 
 print(newtime)
