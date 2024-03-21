@@ -1,2 +1,20 @@
 # Exercise 3
-# Your solution comes here
+hours =00
+min = 00
+sec = 00
+
+sec_past = int(input())
+
+sec = sec_past
+if sec_past >= 60:
+  min = sec_past//60
+  sec = sec_past % 60
+if min >= 60:
+  hours = min //60
+  min = min%60
+
+
+
+newtime = hours,min,sec
+
+print(newtime)
