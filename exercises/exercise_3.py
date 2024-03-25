@@ -5,13 +5,10 @@ sec = 00
 
 sec_past = int(input())
 
-sec = sec_past
-if sec_past >= 60:
-  min = sec_past//60
-  sec = sec_past % 60
-if min >= 60:
-  hours = min //60
-  min = min%60
+hours = (sec_past//3600) %24
+min = (sec_past % 3600)//60
+sec = (sec_past %3600) %60
+
 
 
 
